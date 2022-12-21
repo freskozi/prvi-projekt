@@ -1,93 +1,57 @@
 <!DOCTYPE html>
-
-<html lang="en">
+<html lang="hr">
 <head>
-   <meta charset="UTF-8">
-   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>Document</title>
 
-<style>
-   table, th, td {
-      border: 1px solid black;
-      border-collapse: collapse;
-   }
-</style>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+<title>Moja firma logika</title>
+
 </head>
+
 <body>
-   <h2>Primjer retka koji se proteže kroz 3 stupca</h2>
+  <header>
 
-   <p>Kada želimo protegnuti redak kroz više stupaca koristimo svojstvo
-      <strong>colspan</strong> td elementa. Dodjeljujemo mu vrijednost u kojoj određujemo broj stupaca kroz koja se proteže redak.
-
-   </p>
-   <table border="1">
-   <tr>
-      <td colspan="3" width="320">Prvi redak</td>
-   </tr>
-   <tr>
-      <td>Prvi stupac</td>
-      <td>Drugi stupac</td>
-      <td>Treći stupac</td>
-   </tr>
-</table>
-
-
-<style>
-   table, th, td {
-      border: 1px solid black;
-      
-   }
-</style>
-<h2>Složene tablice</h2>
-
-<table id="prva" border="1">
-   <tr>
-      <td>stupac 1</td>
-      <td>stupac 2</td>
-      <td>stupac 3</td>
-      <td>stupac 4</td>
-   </tr>
-   <tr>
-      <td>5</td>
-      <td colspan="3">6</td>
-   </tr>
-   <tr>
-      <td colspan="2">7</td>
-      <td>8</td>
-      <td>9</td>
-   </tr>
-<tr>
-   <td colspan="3">10</td>
-   <td>11</td>
-</tr>
-</table>
+</header>
+<nav>
+<ul>
+  <li><a href="#onama">O nama</a></li>
+  <li><a href="#nasedj">Naše djelatnosti</a></li>
+  <li><a href="#kontakt">Kontakt</a></li>
+  <li><a href="./stranice/tablice.html">tablice</a></li>
+</ul>
+</nav>
+</header>
+<hr>
+<section>
+  <h1 id="onama">o nama</h1>
+<p>osnovani 1900. godine od strane pere perića prvog</p>
+  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi, quae ad nostrum debitis reiciendis ratione tempore itaque perferendis enim repellat vel illum rerum qui consectetur, animi tempora recusandae, molestias velit.</p>
+<img src="logika.jpg" alt="slika knjige iz logike" width="300" height="400">
+</section>
+<hr>
+<section>
+  <h2 id="nasedj">Naše djelatnosti</h2>
+  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt, dolorum. Beatae eveniet nostrum ad modi ducimus aperiam eaque quasi corrupti dicta, quo vitae quod quidem officiis. Fugiat ducimus voluptatum eos.</p>
+<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum explicabo aut sed omnis accusantium iste, ullam dolor doloribus reprehenderit sunt nulla, ipsum doloremque praesentium quia, consectetur ipsa fugiat voluptatibus. Ex!</p>
+</section>
+<img src="logika 2.png" alt="druga slika logike" width="500" height="700">
+</section>
+<hr>
+<section>
+  <h3 id="kontakt">kontakt</h3>
+  <p><em>Pere Kotara 7</em> 10000 Zagreb</p>
+  <p><mark>logika@logi.ba</mark></p>
+  <p>Za sve vrste <strong>prigovora</strong> i <i>pohvala</i> javite nam se mailom</p>
 
 
-<style>
-   table, th, td {
-      border: 1px solid black;
-      border-collapse: collapse;
-   }
-</style>
-<h2>Složene tablice</h2>
 
-<table id="druga" border="1">
-   <tr>
-      <td rowspan="3">stupac 1</td>
-      <td rowspan="2">stupac 2</td>
-      <td>stupac 3</td>
-      <td>stupac 4</td>
-   </tr>
-   <tr>
-      <td rowspan="2">5</td>
-      <td>6</td>
-   </tr>
-   <tr>
-      <td>7</td>
-      <td>8</td>
-   </tr>
-</table>
 
+</section>
+<hr>
+<footer>
+  <p><small>logika©2022</small></p>
+</footer>
 </body>
 </html>
